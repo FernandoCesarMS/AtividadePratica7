@@ -1,5 +1,5 @@
 #include "Ponto2D.hpp"
-#include "Ponto3D.hpp"
+#include "Ponto3D.cpp"
 
 int main()
 {

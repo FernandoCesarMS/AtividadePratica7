@@ -9,8 +9,9 @@ private:
 public:
 	Ponto3D();
 	Ponto3D(double, double, double);
-	friend ostream& operator<< (ostream &op,const Ponto3D &p);
-	Ponto3D& operator= (const Ponto2D &p);
+	friend ostream& operator<< (ostream &op, Ponto3D &p);
+	Ponto3D& operator= (Ponto2D &p);
+	Ponto3D& operator= (Ponto3D &p);
 	void set(double, double, double);
 	double get_z();
 };
