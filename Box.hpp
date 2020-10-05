@@ -14,5 +14,6 @@ public:
     Box(double, double, double);
     double Area();
     double Volume();
+    double Diagonal();
 private:
 };

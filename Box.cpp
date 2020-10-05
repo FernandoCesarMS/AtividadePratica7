@@ -1,4 +1,5 @@
 #include "Box.hpp"
+#include <math.h>
 
 Box::Box(){
     Ponto3D::set(0,0,0);
@@ -12,4 +13,8 @@ double Box::Area(){
 }
 double Box::Volume(){
     return get_x()*get_y()*get_z();
+}
+double Box::Diagonal(){
+    double X = get_x(),Y = get_y(),Z = get_z();
+    return sqrt((X*X)+(Y*Y)+(Z*Z));
 }
