@@ -41,3 +41,4 @@ class Derived2 : public Derived{
 
 // Pergunta 4 
 // Modifique o código de forma que a classe Derived use herança protected. Crie uma classe Derived2 que seja derivada da classe Derived utilizando herança public. É possível chamar read() a partir de uma função membro da classe Derived2? E o método value()?
+//     Sim, é possível chamar a função read() em uma função membro da classe Derived2, pois foram utilizados apenas os modificadores de acesso public e protected, que não impedem o acesso a função read().
